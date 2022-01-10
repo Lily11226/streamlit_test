@@ -16,7 +16,7 @@ st.title("My First Dashboard in GA Data Science Class")
 url = r"https://raw.githubusercontent.com/JonathanBechtel/dat-11-15/main/ClassMaterial/Unit1/data/master.csv"
 
 num_rows = st.sidebar.number_input('Select Number of Rows to Load',
-                                   min_value = 100,
+                                   min_value = 1000,
                                    max_value = 50000,
                                    step = 100)
 

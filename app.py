@@ -11,14 +11,14 @@ import numpy as np
 import plotly.express as px
 import pickle
 
-st.title("My First Dashboard!!!!!!!")
+st.title("My First Dashboard in GA Data Science Class")
 
 url = r"https://raw.githubusercontent.com/JonathanBechtel/dat-11-15/main/ClassMaterial/Unit1/data/master.csv"
 
 num_rows = st.sidebar.number_input('Select Number of Rows to Load',
-                                   min_value = 1000,
+                                   min_value = 100,
                                    max_value = 50000,
-                                   step = 1000)
+                                   step = 100)
 
 section = st.sidebar.radio('Choose Application Section', ['Data Explorer',
                                                           'Model Explorer'])

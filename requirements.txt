@@ -2,5 +2,8 @@ pandas
 numpy
 plotly
 xgboost
-category_encoders
 streamlit
+yFinance
+Prophet
+Sklearn
+

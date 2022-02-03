@@ -9,9 +9,9 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 from plotly import graph_objs as go
-from fbprophet import Prophet
+from prophet import Prophet
 from datetime import date
-from fbprophet.plot import plot_plotly, plot_components_plotly
+from prophet.plot import plot_plotly, plot_components_plotly
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
 import pickle
